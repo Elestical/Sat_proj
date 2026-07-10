@@ -1,0 +1,20 @@
+# secrets — never commit
+kaggle.json
+.kaggle/
+*.pem
+*.key
+.env
+
+# data + heavy artifacts (fetched/generated at runtime)
+data/deepglobe/
+data/patches/
+*.tif
+*.npz
+outputs/*.pt
+
+# python / editor / os cruft
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store

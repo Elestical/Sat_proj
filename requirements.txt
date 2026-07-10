@@ -1,0 +1,26 @@
+# Acquisition + preprocessing (Phase A)
+earthengine-api
+geemap
+geedim
+rasterio
+numpy
+geopandas
+requests
+
+# Road-detection model (Phase B)
+torch
+torchvision
+segmentation-models-pytorch
+scikit-image
+pillow
+matplotlib
+tqdm
+
+# Growth analysis + forecasting (Phase C)
+scipy                 # distance transforms, neighbourhood filters, Getis-Ord
+
+# DeepGlobe download (optional, for pretraining)
+kaggle
+
+# The Colab notebooks (change detection, ConvLSTM forecaster) pip-install rasterio at
+# the top of each notebook -- no local install needed.
