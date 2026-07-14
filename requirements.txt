@@ -19,6 +19,10 @@ tqdm
 # Growth analysis + forecasting (Phase C)
 scipy                 # distance transforms, neighbourhood filters, Getis-Ord
 
+# Dashboard: per-cell suitability + SHAP explanations (Phase D)
+scikit-learn          # random-forest suitability model behind each cell
+shap                  # per-cell driver contributions
+
 # DeepGlobe download (optional, for pretraining)
 kaggle
 

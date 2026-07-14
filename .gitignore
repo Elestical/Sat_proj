@@ -12,6 +12,11 @@ data/patches/
 *.npz
 outputs/*.pt
 
+# generated products (rebuilt by the scripts; the result figures are kept deliberately)
+outputs/dashboard/
+outputs/cells.geojson
+outputs/forecast_cells.csv
+
 # python / editor / os cruft
 __pycache__/
 *.pyc
