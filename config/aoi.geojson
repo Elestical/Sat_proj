@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "aoi_devanahalli_airport_corridor",
-  "comment": "Greenfield AOI for built-up change detection. North Bengaluru airport / Devanahalli corridor, where farmland in 2017 became townships, aerospace/industrial parks and the NH-44 airport interchange by 2024 -- so dNDBI (built-up index) swings hard and the densification is unambiguous, unlike the already-saturated ORR box. Same box reused for 2017/2019/2024. CRS WGS84 (EPSG:4326); pipeline reprojects to EPSG:32643 (UTM 43N) before clipping.",
+  "comment": "Greenfield AOI for built-up change detection.",
   "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
   "bbox": [77.62, 13.14, 77.75, 13.25],
   "features": [
@@ -16,10 +16,10 @@
         "east_lon": 77.75,
         "approx_extent_km": "12.2 (N-S) x 14.1 (E-W) ~= 172 km^2",
         "anchors": {
-          "kia_airport_nh44_interchange": [77.705, 13.201],
-          "kia_terminal": [77.7106, 13.1986],
+          "kia_airport_nh44_interchange": [77.705, 13.201], 
+          "kia_terminal": [77.7106, 13.1986], 
           "bagalur": [77.6557, 13.1320],
-          "bettahalsur": [77.6300, 13.1620]
+          "bettahalsur": [77.6300, 13.1620] 
         },
         "target_crs": "EPSG:32643"
       },

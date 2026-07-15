@@ -1,6 +1,8 @@
-"""Downsample DeepGlobe 0.5 m road tiles 16x to ~8 m patches that match Sentinel-2 road width.
+"""
+Downsample DeepGlobe 0.5 m road tiles 16x to ~8 m patches that match Sentinel-2 road width.
 
-    python scripts/prepare_deepglobe.py --src data/deepglobe/train --val-frac 0.1
+python scripts/prepare_deepglobe.py 
+--src data/deepglobe/train 
 """
 import argparse
 import glob

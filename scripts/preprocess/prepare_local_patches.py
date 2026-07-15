@@ -1,9 +1,11 @@
-"""Cut the Sentinel-2 stack + OSM road mask into 256x256 patches with a spatial train/val split.
+"""
+Cut the Sentinel-2 stack + OSM road mask into 256x256 patches with a spatial train/val split.
 
 Bands are saved R,G,B,NIR,SWIR so img[:3] is true-colour RGB. The right-hand strip of the
 AOI is held out for validation so val patches never overlap train patches.
 
-    python scripts/prepare_local_patches.py
+python scripts/prepare_local_patches.py
+
 """
 import os
 
